@@ -3,8 +3,8 @@ const sidebar = require("./sidebar.js");
 
 export default {
     title: '越客软件 操作指南',
-    description: '越客会员积分签到管理软件-操作指南', 
-    base: '/pointsign/', 
+    description: '越客人脸识别签到管理软件-操作指南', 
+    base: '/facesign/', 
     lastUpdated: true,
     outline: 'deep', // 右侧大纲标题层级    
  
@@ -19,7 +19,7 @@ export default {
     head: [
         // 设置 favor.ico，.vuepress/public 下
         [
-            'link', { rel: 'icon', href: '/rentalsign/images/yklogo32_32.png' }
+            'link', { rel: 'icon', href: '/facesign/images/yklogo32_32.png' }
         ]
     ],   
   
@@ -29,7 +29,7 @@ export default {
         backToHome:'返回首页',
 
         editLink: {
-            pattern: 'https://github.com/yuekesoft/pointsigndocs/edit/master/docs/:path',
+            pattern: 'https://github.com/yuekesoft/facesign-docs/edit/master/docs/:path',
             text: '编辑此页面'
           },
 
